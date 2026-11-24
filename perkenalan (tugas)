@@ -1,1 +1,39 @@
+class Mahasiswa:
+    def __init__(self, nama):
+        self.nama = nama
 
+    def berbicara(self, kalimat):
+        print(f"{self.nama}: {kalimat}")
+
+
+nindi = Mahasiswa("Nindi")
+ummu = Mahasiswa("Ummu")
+
+# Pertemuan pertama di Aula Gedung D lantai 6
+nindi.berbicara("Hallo kak, ini kursinya masih kosong nggak?")
+ummu.berbicara("Iya, masih. Silakan duduk.")
+nindi.berbicara("Terima kasih ya.")
+ummu.berbicara("Iya, sama-sama.")
+
+# Perkenalan
+nindi.berbicara("Eh, kamu Ummu ya yang ada di grup WhatsApp?")
+ummu.berbicara("Iya, kamu siapa?")
+nindi.berbicara("Saya Nindi. Saya sudah save nomor kamu, lho!")
+ummu.berbicara("Oh iya? Memangnya kamu tahu nomor saya dari mana?")
+nindi.berbicara("Dari grup WhatsApp lah. Masa dari dukun?")
+ummu.berbicara("Hahaha, iya juga. Saya save balik ya.")
+nindi.berbicara("Nah, begitu dong. Biar pertemanan kita adil.")
+
+# Sebelum tes dimulai
+ummu.berbicara("Sebentar lagi tesnya dimulai, ya?")
+nindi.berbicara("Iya, semoga soalnya nggak bikin kita lupa cara berpikir.")
+ummu.berbicara("Hahaha, semoga lancar!")
+
+# Setelah tes selesai
+nindi.berbicara("Ummu, tesnya sudah selesai?")
+ummu.berbicara("Sudah. Saya mau ke ruang kemahasiswaan untuk mengumpulkan data.")
+nindi.berbicara("Oh, ayo. Saya antar, saya tahu tempatnya.")
+ummu.berbicara("Boleh, terima kasih ya, Nindi.")
+nindi.berbicara("Sama-sama. Baru kenal sudah jalan bareng.")
+ummu.berbicara("Hahaha, semoga pertemanan kita awet sampai wisuda.")
+nindi.berbicara("Amin. Jangan cuma awet di kontak WhatsApp.")
