@@ -1,1 +1,20 @@
+class Mahasiswa:
+    pass
 
+
+# Instance Attribute
+
+mahasiswa1 = Mahasiswa()
+mahasiswa1.nim = 14022500009
+mahasiswa1.nama = "Nindi"
+
+print(mahasiswa1.nim)
+print(mahasiswa1.nama)
+
+
+mahasiswa2 = Mahasiswa()
+mahasiswa2.nim = 14022500008
+mahasiswa2.nama = "Ummu"
+
+print(mahasiswa2.nim)
+print(mahasiswa2.nama)
