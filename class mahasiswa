@@ -1,11 +1,20 @@
 class Mahasiswa:
-    nim = 0
-    nama = ""
+    pass
 
-    def perkenalan(self):
-        print(f"Halo nama saya {self.nama}")
+# Membuat objek pertama
+mahasiswa1 = Mahasiswa()
+mahasiswa1.nim = "14022500008"
+mahasiswa1.nama = "Ummu"
 
+# Membuat objek kedua
+mahasiswa2 = Mahasiswa()
+mahasiswa2.nim = "14022500009"
+mahasiswa2.nama = "Nindi"
 
-mahasiswa = Mahasiswa()
-mahasiswa.nama = "nindi"
-mahasiswa.perkenalan()
+# Menampilkan data mahasiswa pertama
+print(mahasiswa1.nim)
+print(mahasiswa1.nama)
+
+# Menampilkan data mahasiswa kedua
+print(mahasiswa2.nim)
+print(mahasiswa2.nama)
